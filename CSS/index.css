@@ -13,13 +13,37 @@ h1{
     color: #fc1f69;
     text-shadow: 2px 2px 0 #482a72;
 }
+#caixaTitulo{
+    margin-top: 126px; 
+    margin-left: 91px;
+    background-color: #9b31ff;
+    box-shadow: 10px 10px 0 #482a72;
+    width: 630px;
+    height: 150px;
+    text-align: center;
+    
+}
+#titulo{
+    display: inline-block;
+    font-family: "Press Start 2P", sans-serif;
+    color: #fc1f69;
+    text-shadow: 2px 2px 0 #482a72;
+    margin-top: 30px;
+}
+#subTitulo{
+    font-family: "Press Start 2P", sans-serif;
+    color: #fff;
+    margin-top: 30px;
+    text-shadow: 2px 2px 0 #482a72;
+}
+
 nav{
     text-align: right;
 }
 a{
     display: inline-flex;
     align-items: center;
-    color: black;
+    color: white;
     font-size: 20px;
     font-weight: 500;
     
@@ -36,7 +60,7 @@ a::before{
    
 }
 
-#button{
+.button{
     display: inline-block;
     height: 60px;
     line-height: 60px;
@@ -48,15 +72,38 @@ a::before{
     transition: transform 150ms ease-in-out, background-color 100ms ease-in-out;
 }
 
-#button:hover{
+.button:hover{
     transform: scale(1.05);
     cursor: pointer;
 }
-
-#button:active{
+.buttonTitulo:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.button:active{
     background-color: rgb(128, 211, 3);
     transform: scale(1.0);
 }
-
+.buttonTitulo:active{
+    background-color:rgb(128, 211, 3);
+    transform: scale(1.0);
+}
+#buttonPai{
+    display: inline-block;
+    margin-top: 38px;
+    margin-left: 181px;
+    font-family: "Fira Code", sans-serif;
+}
+.buttonTitulo{
+    display: inline-block;
+    margin-right: 112px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #ff2e74;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 #FFEB3B;
+    transition: transform 150ms ease-in-out, background-color 100ms ease-in-out;
+}
 
 
