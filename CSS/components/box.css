@@ -1,0 +1,16 @@
+#caixaTitulo{
+    margin-top: 126px; 
+    margin-left: 91px;
+    display: inline-block;/*aqui estou tornando a box em um elementos dinamico onde não precisamos determinar heigh e width, 
+    onde qualquer texto irá se adaptar com o padding e tornará a box em algo que irá definir sua medidas de acordo com
+    o tamanho da palavra */
+    background-color: #9b31ff;
+    box-shadow: 10px 10px 0 #482a72;
+    text-align: center;
+    padding: 42px 44px;
+    
+}
+#caixaTitulo #titulo{/*estou chando o titulo(h1) para ter um comportamento especifico
+    em sua margin somente dentro dessa box*/
+    margin-bottom: 28px;
+}

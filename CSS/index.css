@@ -13,17 +13,6 @@ header{
     color: #fc1f69;
     text-shadow: 2px 2px 0 #482a72;
 }
-#caixaTitulo{
-    margin-top: 126px; 
-    margin-left: 91px;
-    background-color: #9b31ff;
-    box-shadow: 10px 10px 0 #482a72;
-    width: 752px;
-    height: 174px;
-    text-align: center;
-    
-}
-
 nav{
     text-align: right;
 }
