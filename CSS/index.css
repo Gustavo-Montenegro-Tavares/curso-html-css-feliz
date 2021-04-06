@@ -6,7 +6,7 @@ header{
     border-bottom: 10px solid #482a72;
     padding: 10px 20px;
 }
-h1{
+#logo{
     display: flex;
     align-items: center;
     font-family: "Press Start 2P", sans-serif;
@@ -18,20 +18,15 @@ h1{
     margin-left: 91px;
     background-color: #9b31ff;
     box-shadow: 10px 10px 0 #482a72;
-    width: 630px;
-    height: 150px;
+    width: 752px;
+    height: 174px;
     text-align: center;
     
 }
-#titulo{
-    display: inline-block;
-    font-family: "Press Start 2P", sans-serif;
-    color: #fc1f69;
-    text-shadow: 2px 2px 0 #482a72;
-    margin-top: 30px;
-}
+
 #subTitulo{
     font-family: "Press Start 2P", sans-serif;
+    font-size: 30px;
     color: #fff;
     margin-top: 30px;
     text-shadow: 2px 2px 0 #482a72;
