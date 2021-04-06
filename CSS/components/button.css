@@ -1,0 +1,29 @@
+.button{
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    background-color: #ff2e74;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 #482a72;
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform 150ms ease-in-out, background-color 100ms ease-in-out;
+}
+.button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.button:active{
+    background-color: rgb(128, 211, 3);
+    transform: scale(1.0);
+}
+
+.buttonPai{
+    display: block;
+    margin-top: 38px;
+    margin-left: 181px;
+    font-family: "Fira Code", sans-serif;
+}
