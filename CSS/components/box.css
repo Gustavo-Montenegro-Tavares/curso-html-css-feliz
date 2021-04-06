@@ -1,4 +1,4 @@
-#caixaTitulo{
+.caixaTitulo{
     margin-top: 126px; 
     margin-left: 91px;
     display: inline-block;/*aqui estou tornando a box em um elementos dinamico onde não precisamos determinar heigh e width, 
@@ -10,7 +10,7 @@
     padding: 42px 44px;
     
 }
-#caixaTitulo #titulo{/*estou chando o titulo(h1) para ter um comportamento especifico
+.caixaTitulo .titulo{/*estou chamando o titulo(h1) para ter um comportamento especifico
     em sua margin somente dentro dessa box*/
     margin-bottom: 28px;
 }
