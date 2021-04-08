@@ -1,16 +1,18 @@
 .banner{
+    display: flex;
+    justify-content: right;
     background-image: url(../../Assets/Images/289854dae67ede707890974d5b209100.png); /*aqui com dois pontos eu retorno um repositorio
      de cada vez até chegar em assets e trazer a imagem de fundopara a página*/
     background-size: 100%;/*aqui eu digo ao css para a imagem ocupar 100% do banner.css na pagina*/
     height: 730px;
     background-repeat: no-repeat;
-    border-bottom: 10px solid #ff2e74;
-    padding-left: 90px;
+    border-bottom: 10px solid #482a72;
+    padding-right: 90px;
     padding-top: 115px;
 }
 
 .banner .wrapper{
-    display: flex;
+    display: inherit;
     flex-direction: column;
     width: 830px;
     
@@ -20,6 +22,6 @@
 }
 
 .banner .navigation{
-    display: flex;
+    display: inherit;
     justify-content: space-around;
 }

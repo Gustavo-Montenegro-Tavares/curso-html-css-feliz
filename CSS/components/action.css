@@ -1,12 +1,13 @@
 .menu .action{
-    margin-right: 30px;
+    margin-right: 30px; /*aqui eu pego o nav e aplico a margin apenas em seu filho(action) de uma forma especifica 
+    para que ele possa ser reutilizado sem alterações em posicionamentos em outros códigos*/
 
 }
 .action{
     display: inline-flex;
     align-items: center;
     color: white;
-    font-size: 20px;
+    font-size: 20px;        /*aqui trata-se de um componente, não podemos alterar posicionamentos, apenas caracteristicas*/
     font-weight: 500;
     text-decoration: none;
 }
