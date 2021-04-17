@@ -1,19 +1,32 @@
 .skill-tec{
     display: flex;
+    align-items: center;
     font-family: "Press Start 2P", sans-serif;
     font-size: 25PX;
     color: #FFF;
 }
-.skill-tec .corpo{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
+
 
 .skill-tec .icon{
     margin-right: 25px;
+    width: 90px;
 }
 
 .skill-tec .title{
     text-shadow: 2px 2px 0 #482a72;
+    margin-bottom: 10px;
 }
+.skill-tec .title.-java{
+    font-size: 50px;
+    margin-right: 25px;
+    height: 90px;
+    line-height: 90px;
+    width: 90px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.skill-tec .progress-bar{
+    width: 380px;
+}
+
