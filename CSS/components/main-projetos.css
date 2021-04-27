@@ -1,0 +1,14 @@
+.main-projetos{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 520px;
+    box-sizing: border-box;
+    
+}
+
+.main-projetos .main-title.-secundario{
+    padding-top: 50px;
+}

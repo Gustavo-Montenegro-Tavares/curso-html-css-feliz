@@ -1,0 +1,19 @@
+.wrapper-projetos{
+    display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.projetos{
+    align-items: center;
+    flex-direction: row;
+    padding-top: 50px;
+
+}
+.projetos-icon{
+    width: 280px;
+    height: 280px;
+}
+.projetos:nth-child(even){
+    margin-right: 56px;
+    margin-left: 56px;
+}
