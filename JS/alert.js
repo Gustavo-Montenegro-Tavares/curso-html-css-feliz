@@ -1,0 +1,1 @@
+alert("Este site está sendo criado para estudo!");
